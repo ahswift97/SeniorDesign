@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.EducationalResources"
+             BackgroundColor="#b6e1de">
+
+    <ContentPage>
+        <ContentPage.Content>
+            <AbsoluteLayout>
+                <BoxView
+                    Color="#166680"
+                    Opacity=".46"
+                    AbsoluteLayout.LayoutBounds=".5,.348,.833,.173" AbsoluteLayout.LayoutFlags="All"/>
+                <Label
+                    Text="Educational Resources"
+                    FontSize="12"
+                    TextColor="#ffffff"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    AbsoluteLayout.LayoutBounds=".5,.348,.833,.173" AbsoluteLayout.LayoutFlags="All"/>
+            </AbsoluteLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage>
+        <ContentPage.Content>
+            <AbsoluteLayout>
+                <BoxView
+                    BackgroundColor="#166680"
+                    Opacity=".46"
+                    AbsoluteLayout.LayoutBounds="1,1,1,.238" AbsoluteLayout.LayoutFlags="All"/>
+                <Label
+                    Text="Why is temerature important?"
+                    FontSize="12"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    AbsoluteLayout.LayoutBounds=".136,1,.694,.238" AbsoluteLayout.LayoutFlags="All"/>
+                <Label
+                    Text="Aquatic organisms (e.g. insects, fish, and snails) are sensitive to changes in water temperature and require a certain temperature range to survive and thrive. If the temperature of a waterbody is outside that range for a long period of time, organisms can become stressed and die."
+                    FontSize="10"
+                    HorizontalTextAlignment="Start"
+                    VerticalTextAlignment="Center"
+                    AbsoluteLayout.LayoutBounds=".5,.082,.917,.716" AbsoluteLayout.LayoutFlags="All"/>
+                <Image
+                    Source="person.png"
+                    AbsoluteLayout.LayoutBounds=".881,.954,.111,.169" AbsoluteLayout.LayoutFlags="All"/>
+            </AbsoluteLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage>
+        <ContentPage.Content>
+            <AbsoluteLayout>
+                <BoxView
+                    BackgroundColor="#166680"
+                    Opacity=".46"
+                    AbsoluteLayout.LayoutBounds="1,1,1,.238" AbsoluteLayout.LayoutFlags="All"/>
+                <Label
+                    Text="Why is pH important?"
+                    FontSize="12"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    AbsoluteLayout.LayoutBounds=".136,1,.694,.238" AbsoluteLayout.LayoutFlags="All"/>
+                <Label
+                    Text="Aquatic organisms have adapted to a specific pH level and may die, stop reproducing, or move away if the pH of the water is too high or too low. Most organisms prefer a pH range of 6.5 to 8.0, but to truly determine whether a reading is acceptable, research the needs of the species native to your region."
+                    FontSize="10"
+                    HorizontalTextAlignment="Start"
+                    VerticalTextAlignment="Center"
+                    AbsoluteLayout.LayoutBounds=".5,.082,.917,.716" AbsoluteLayout.LayoutFlags="All"/>
+                <Image
+                    Source="person.png"
+                    AbsoluteLayout.LayoutBounds=".881,.954,.111,.169" AbsoluteLayout.LayoutFlags="All"/>
+            </AbsoluteLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage>
+        <ContentPage.Content>
+            <AbsoluteLayout>
+                <BoxView
+                    BackgroundColor="#166680"
+                    Opacity=".46"
+                    AbsoluteLayout.LayoutBounds="1,1,1,.238" AbsoluteLayout.LayoutFlags="All"/>
+                <Label
+                    Text="Why is turbidity important?"
+                    FontSize="12"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    AbsoluteLayout.LayoutBounds=".136,1,.694,.238" AbsoluteLayout.LayoutFlags="All"/>
+                <Label
+                    Text="Turbidity is the measure of the relative clarity of water. It should not be confused with color, since darkly colored water can still be clear and not turbid. High turbidity indicates that there are solid particles such as clay, slit, organic and inorganic matter, and microscopic organisms suspended in the water that make it hazy. These particles can be bad for water quality because they can clog fish gills, block light from aquatic plants, and absorb heat."
+                    FontSize="10"
+                    HorizontalTextAlignment="Start"
+                    VerticalTextAlignment="Center"
+                    AbsoluteLayout.LayoutBounds=".5,.082,.917,.716" AbsoluteLayout.LayoutFlags="All"/>
+                <Image
+                    Source="person.png"
+                    AbsoluteLayout.LayoutBounds=".881,.954,.111,.169" AbsoluteLayout.LayoutFlags="All"/>
+            </AbsoluteLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage>
+        <ContentPage.Content>
+            <AbsoluteLayout>
+                <BoxView
+                    BackgroundColor="#166680"
+                    Opacity=".46"
+                    AbsoluteLayout.LayoutBounds="1,1,1,.238" AbsoluteLayout.LayoutFlags="All"/>
+                <Label
+                    Text="Why is dissolved oxygen important?"
+                    FontSize="12"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    AbsoluteLayout.LayoutBounds=".136,1,.694,.238" AbsoluteLayout.LayoutFlags="All"/>
+                <Label
+                    Text="Dissolved oxygen (DO) is important to the health of aquatic ecosystems. Most aquatic organisms need oxygen to survive. Natural waters with consistently high dissolved oxygen levels are most likely healthy and stable environments capable of supporting a diversity of aquatic organisms. DO levels can fluctuate seasonally and over a 24-hour period. Levels tend to be lower in the early morning because aquatic plants have been &quot;resting&quot; all night without sunlight for photosynthesis (and oxygen generation). The key to fully understanding your DO data is to determine the % saturation for the waterbody. In the next step you will use the water temperature and DO level to determine the % saturation of your water sample."
+                    FontSize="10"
+                    HorizontalTextAlignment="Start"
+                    VerticalTextAlignment="Center"
+                    AbsoluteLayout.LayoutBounds=".5,.082,.917,.716" AbsoluteLayout.LayoutFlags="All"/>
+                <Image
+                    Source="person.png"
+                    AbsoluteLayout.LayoutBounds=".881,.954,.111,.169" AbsoluteLayout.LayoutFlags="All"/>
+            </AbsoluteLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage>
+        <ContentPage.Content>
+            <AbsoluteLayout>
+                <BoxView
+                    BackgroundColor="#166680"
+                    Opacity=".46"
+                    AbsoluteLayout.LayoutBounds="1,1,1,.238" AbsoluteLayout.LayoutFlags="All"/>
+                <Label
+                    Text="Why is nitrate important?"
+                    FontSize="12"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    AbsoluteLayout.LayoutBounds=".136,1,.694,.238" AbsoluteLayout.LayoutFlags="All"/>
+                <Label
+                    Text="TBD"
+                    FontSize="10"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    AbsoluteLayout.LayoutBounds=".5,.082,.917,.716" AbsoluteLayout.LayoutFlags="All"/>
+                <Image
+                    Source="person.png"
+                    AbsoluteLayout.LayoutBounds=".881,.954,.111,.169" AbsoluteLayout.LayoutFlags="All"/>
+            </AbsoluteLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage>
+        <ContentPage.Content>
+            <AbsoluteLayout>
+                <BoxView
+                    BackgroundColor="#166680"
+                    Opacity=".46"
+                    AbsoluteLayout.LayoutBounds="1,1,1,.238" AbsoluteLayout.LayoutFlags="All"/>
+                <Label
+                    Text="Why is phosphate important?"
+                    FontSize="12"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    AbsoluteLayout.LayoutBounds=".136,1,.694,.238" AbsoluteLayout.LayoutFlags="All"/>
+                <Label
+                    Text="TBD"
+                    FontSize="10"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    AbsoluteLayout.LayoutBounds=".5,.082,.917,.716" AbsoluteLayout.LayoutFlags="All"/>
+                <Image
+                    Source="person.png"
+                    AbsoluteLayout.LayoutBounds=".881,.954,.111,.169" AbsoluteLayout.LayoutFlags="All"/>
+            </AbsoluteLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage>
+        <ContentPage.Content>
+            <AbsoluteLayout>
+                <BoxView
+                    BackgroundColor="#166680"
+                    Opacity=".46"
+                    AbsoluteLayout.LayoutBounds="1,1,1,.238" AbsoluteLayout.LayoutFlags="All"/>
+                <Label
+                    Text="Why is coliform important?"
+                    FontSize="12"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    AbsoluteLayout.LayoutBounds=".136,1,.694,.238" AbsoluteLayout.LayoutFlags="All"/>
+                <Label
+                    Text="TBD"
+                    FontSize="10"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    AbsoluteLayout.LayoutBounds=".5,.082,.917,.716" AbsoluteLayout.LayoutFlags="All"/>
+                <Image
+                    Source="person.png"
+                    AbsoluteLayout.LayoutBounds=".881,.954,.111,.169" AbsoluteLayout.LayoutFlags="All"/>
+            </AbsoluteLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage>
+        <ContentPage.Content>
+            <AbsoluteLayout>
+                <BoxView
+                    BackgroundColor="#166680"
+                    Opacity=".46"
+                    AbsoluteLayout.LayoutBounds="1,1,1,.238" AbsoluteLayout.LayoutFlags="All"/>
+                <Label
+                    Text="Why is salinity important?"
+                    FontSize="12"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    AbsoluteLayout.LayoutBounds=".136,1,.694,.238" AbsoluteLayout.LayoutFlags="All"/>
+                <Label
+                    Text="TBD"
+                    FontSize="10"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    AbsoluteLayout.LayoutBounds=".5,.082,.917,.716" AbsoluteLayout.LayoutFlags="All"/>
+                <Image
+                    Source="person.png"
+                    AbsoluteLayout.LayoutBounds=".881,.954,.111,.169" AbsoluteLayout.LayoutFlags="All"/>
+            </AbsoluteLayout>
+        </ContentPage.Content>
+    </ContentPage>
+</CarouselPage>
+    
+    

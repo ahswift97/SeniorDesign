@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.MainPage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#166680">
+    <ContentPage.Content>
+
+        <AbsoluteLayout>
+            <!-- Place new controls here -->
+            
+            <Button x:Name="takeMeasurementsButton"
+                Text="Take Measurements"
+                FontSize="14"
+                TextColor="#ffffff"
+                BorderRadius = "6"
+                AbsoluteLayout.LayoutBounds=".5,.4,.75,.084" AbsoluteLayout.LayoutFlags="All"
+                BackgroundColor="#85d0ce"
+                Clicked="OnButtonClicked"/>
+
+            <Button x:Name="previousDataButton"
+                Text="View Previous Data"
+                FontSize="14"
+                TextColor="#ffffff"
+                BorderRadius = "6"
+                AbsoluteLayout.LayoutBounds=".5,.539,.75,.084" AbsoluteLayout.LayoutFlags="All"
+                BackgroundColor="#85d0ce"
+                Clicked="OnButtonClicked"/>
+
+            <Button x:Name="educationalResourcesButton"
+                Text="Educational Resources"
+                FontSize="14"
+                TextColor="#ffffff"
+                BorderRadius = "6"
+                AbsoluteLayout.LayoutBounds=".5,.683,.75,.084" AbsoluteLayout.LayoutFlags="All"
+                BackgroundColor="#85d0ce"
+                Clicked="OnButtonClicked"/>
+
+            <BoxView
+                Color="#000000"
+                AbsoluteLayout.LayoutBounds="1,.062,1,.139" AbsoluteLayout.LayoutFlags="All"
+                Opacity=".27"/>
+
+            <Image
+                Source="homelogo.png"
+                AbsoluteLayout.LayoutBounds=".073,.035,.344,.193" AbsoluteLayout.LayoutFlags="All" />
+
+            <Image 
+                Source="settings.png"
+                AbsoluteLayout.LayoutBounds=".935,.956,.139,.078" AbsoluteLayout.LayoutFlags="All" />
+            
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
